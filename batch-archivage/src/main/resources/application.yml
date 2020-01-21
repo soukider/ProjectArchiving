@@ -1,0 +1,40 @@
+db:
+  host: localhost
+  port: 5433
+  name: pgisrauditlog
+  username: postgres
+  password: 123
+
+solr:
+  host: localhost
+  port: 8983
+ 
+batch:
+  archivingCron: 0 0/5 * * * *
+  archive-directory: audit-log/
+
+spring:
+  batch:
+    initialize-schema: always
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://${db.host}:${db.port}/${db.name}?stringtype=unspecified
+    username: ${db.username}
+    password: ${db.password}
+  jpa:
+#    show-sql: true
+    hibernate:
+        ddl-auto: update
+    properties:
+        hibernate:
+            dialect: org.hibernate.dialect.PostgreSQL95Dialect
+            jdbc:
+              lob:
+                non_contextual_creation: true
+
+jks:
+  path: C:\CIRB-Projects\ProjectArchiving\key
+  password: P@ssw0rd
+
+encryption:
+  key: cirbAESkey

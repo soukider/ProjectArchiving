@@ -1,0 +1,1509 @@
+2018-11-26 21:15:46.130 INFO  (main) [   ] o.e.j.u.log Logging initialized @9681ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-11-26 21:15:47.923 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_172-b11
+2018-11-26 21:15:48.253 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///C:/Users/Administrator/Desktop/Logiciels/solr-7.5.0/solr-7.5.0/server/contexts/] at interval 0
+2018-11-26 21:15:50.930 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2018-11-26 21:15:51.009 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2018-11-26 21:15:51.010 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2018-11-26 21:15:51.064 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2018-11-26 21:15:51.323 INFO  (main) [   ] o.a.s.u.c.SSLCredentialProviderFactory Processing SSL Credential Provider chain: env;sysprop
+2018-11-26 21:15:51.521 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2018-11-26 21:15:51.598 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.5.0
+2018-11-26 21:15:51.598 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2018-11-26 21:15:51.598 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: C:\Users\Administrator\Desktop\Logiciels\solr-7.5.0\solr-7.5.0
+2018-11-26 21:15:51.621 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2018-11-26T21:15:51.621Z
+2018-11-26 21:15:52.209 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: C:\Users\Administrator\Desktop\Logiciels\solr-7.5.0\solr-7.5.0\server\solr
+2018-11-26 21:15:52.419 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Users\Administrator\Desktop\Logiciels\solr-7.5.0\solr-7.5.0\server\solr\solr.xml
+2018-11-26 21:15:54.215 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@13b46c3, but no JMX reporters were configured - adding default JMX reporter.
+2018-11-26 21:16:02.443 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2018-11-26 21:16:02.448 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2018-11-26 21:16:03.513 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@13b46c3
+2018-11-26 21:16:03.514 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@13b46c3
+2018-11-26 21:16:03.525 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@13b46c3
+2018-11-26 21:16:04.539 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath C:\Users\Administrator\Desktop\Logiciels\solr-7.5.0\solr-7.5.0\server\solr
+2018-11-26 21:16:04.540 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [archives]
+2018-11-26 21:16:05.376 INFO  (coreLoadExecutor-9-thread-1) [   x:archives] o.a.s.c.SolrResourceLoader [archives] Added 56 libs to classloader, from paths: [/C:/Users/Administrator/Desktop/Logiciels/solr-7.5.0/solr-7.5.0/contrib/clustering/lib, /C:/Users/Administrator/Desktop/Logiciels/solr-7.5.0/solr-7.5.0/contrib/extraction/lib, /C:/Users/Administrator/Desktop/Logiciels/solr-7.5.0/solr-7.5.0/contrib/langid/lib, /C:/Users/Administrator/Desktop/Logiciels/solr-7.5.0/solr-7.5.0/contrib/velocity/lib, /C:/Users/Administrator/Desktop/Logiciels/solr-7.5.0/solr-7.5.0/dist]
+2018-11-26 21:16:12.627 INFO  (coreLoadExecutor-9-thread-1) [   x:archives] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.5.0
+2018-11-26 21:16:14.101 INFO  (coreLoadExecutor-9-thread-1) [   x:archives] o.a.s.s.IndexSchema [archives] Schema name=default-config
+2018-11-26 21:16:23.290 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@aa41f2{/solr,file:///C:/Users/Administrator/Desktop/Logiciels/solr-7.5.0/solr-7.5.0/server/solr-webapp/webapp/,AVAILABLE}{C:\Users\Administrator\Desktop\Logiciels\solr-7.5.0\solr-7.5.0\server/solr-webapp/webapp}
+2018-11-26 21:16:23.481 INFO  (coreLoadExecutor-9-thread-1) [   x:archives] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2018-11-26 21:16:23.656 INFO  (coreLoadExecutor-9-thread-1) [   x:archives] o.a.s.c.CoreContainer Creating SolrCore 'archives' using configuration from instancedir C:\Users\Administrator\Desktop\Logiciels\solr-7.5.0\solr-7.5.0\server\solr\archives, trusted=true
+2018-11-26 21:16:23.727 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@1053c80{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2018-11-26 21:16:23.728 INFO  (main) [   ] o.e.j.s.Server Started @47283ms
+2018-11-26 21:16:24.387 INFO  (coreLoadExecutor-9-thread-1) [   x:archives] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.archives' (registry 'solr.core.archives') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@13b46c3
+2018-11-26 21:16:24.613 INFO  (coreLoadExecutor-9-thread-1) [   x:archives] o.a.s.c.SolrCore [[archives] ] Opening new SolrCore at [C:\Users\Administrator\Desktop\Logiciels\solr-7.5.0\solr-7.5.0\server\solr\archives], dataDir=[C:\Users\Administrator\Desktop\Logiciels\solr-7.5.0\solr-7.5.0\server\solr\archives\data\]
+2018-11-26 21:16:25.201 INFO  (coreLoadExecutor-9-thread-1) [   x:archives] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-11-26 21:16:30.598 INFO  (coreLoadExecutor-9-thread-1) [   x:archives] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-11-26 21:16:30.599 INFO  (coreLoadExecutor-9-thread-1) [   x:archives] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-11-26 21:16:30.923 INFO  (coreLoadExecutor-9-thread-1) [   x:archives] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2018-11-26 21:16:30.924 INFO  (coreLoadExecutor-9-thread-1) [   x:archives] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-11-26 21:16:33.574 INFO  (coreLoadExecutor-9-thread-1) [   x:archives] o.a.s.s.SolrIndexSearcher Opening [Searcher@1941311[archives] main]
+2018-11-26 21:16:33.880 INFO  (coreLoadExecutor-9-thread-1) [   x:archives] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\Administrator\Desktop\Logiciels\solr-7.5.0\solr-7.5.0\server\solr\archives\conf
+2018-11-26 21:16:34.018 INFO  (coreLoadExecutor-9-thread-1) [   x:archives] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-11-26 21:16:34.050 INFO  (coreLoadExecutor-9-thread-1) [   x:archives] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-11-26 21:16:34.146 INFO  (coreLoadExecutor-9-thread-1) [   x:archives] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-11-26 21:16:34.171 INFO  (searcherExecutor-10-thread-1-processing-x:archives) [   x:archives] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@1941311[archives] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.5.0):C1) Uninverting(_1(7.5.0):C1) Uninverting(_2(7.5.0):C1)))}
+2018-11-26 21:16:34.171 INFO  (searcherExecutor-10-thread-1-processing-x:archives) [   x:archives] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-11-26 21:16:34.171 INFO  (searcherExecutor-10-thread-1-processing-x:archives) [   x:archives] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-11-26 21:16:34.194 INFO  (searcherExecutor-10-thread-1-processing-x:archives) [   x:archives] o.a.s.c.SolrCore [archives] Registered new searcher Searcher@1941311[archives] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.5.0):C1) Uninverting(_1(7.5.0):C1) Uninverting(_2(7.5.0):C1)))}
+2018-11-26 21:18:32.087 INFO  (qtp12042244-15) [   x:archives] o.a.s.u.p.LogUpdateProcessorFactory [archives]  webapp=/solr path=/update params={wt=javabin&version=2}{} 0 59740
+2018-11-26 21:18:32.178 ERROR (qtp12042244-15) [   x:archives] o.a.s.s.HttpSolrCall null:java.lang.RuntimeException: java.lang.OutOfMemoryError: Java heap space
+	at org.apache.solr.servlet.HttpSolrCall.sendError(HttpSolrCall.java:662)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:530)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:531)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at org.apache.lucene.util.ArrayUtil.growExact(ArrayUtil.java:323)
+	at org.apache.lucene.util.ArrayUtil.grow(ArrayUtil.java:332)
+	at org.apache.lucene.index.SortedNumericDocValuesWriter.addOneValue(SortedNumericDocValuesWriter.java:95)
+	at org.apache.lucene.index.SortedNumericDocValuesWriter.addValue(SortedNumericDocValuesWriter.java:68)
+	at org.apache.lucene.index.DefaultIndexingChain.indexDocValue(DefaultIndexingChain.java:608)
+	at org.apache.lucene.index.DefaultIndexingChain.processField(DefaultIndexingChain.java:467)
+	at org.apache.lucene.index.DefaultIndexingChain.processDocument(DefaultIndexingChain.java:394)
+	at org.apache.lucene.index.DocumentsWriterPerThread.updateDocument(DocumentsWriterPerThread.java:251)
+	at org.apache.lucene.index.DocumentsWriter.updateDocument(DocumentsWriter.java:494)
+	at org.apache.lucene.index.IndexWriter.updateDocument(IndexWriter.java:1609)
+	at org.apache.lucene.index.IndexWriter.updateDocument(IndexWriter.java:1601)
+	at org.apache.solr.update.DirectUpdateHandler2.updateDocOrDocValues(DirectUpdateHandler2.java:964)
+	at org.apache.solr.update.DirectUpdateHandler2.doNormalUpdate(DirectUpdateHandler2.java:341)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc0(DirectUpdateHandler2.java:288)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc(DirectUpdateHandler2.java:235)
+	at org.apache.solr.update.processor.RunUpdateProcessor.processAdd(RunUpdateProcessorFactory.java:67)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.doLocalAdd(DistributedUpdateProcessor.java:970)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:1186)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:653)
+	at org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:103)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.AddSchemaFieldsUpdateProcessorFactory$AddSchemaFieldsUpdateProcessor.processAdd(AddSchemaFieldsUpdateProcessorFactory.java:475)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+
+2018-11-26 21:18:32.235 WARN  (qtp12042244-15) [   x:archives] o.e.j.s.HttpChannel /solr/archives/update
+java.lang.OutOfMemoryError: Java heap space
+	at org.apache.lucene.util.ArrayUtil.growExact(ArrayUtil.java:323) ~[?:?]
+	at org.apache.lucene.util.ArrayUtil.grow(ArrayUtil.java:332) ~[?:?]
+	at org.apache.lucene.index.SortedNumericDocValuesWriter.addOneValue(SortedNumericDocValuesWriter.java:95) ~[?:?]
+	at org.apache.lucene.index.SortedNumericDocValuesWriter.addValue(SortedNumericDocValuesWriter.java:68) ~[?:?]
+	at org.apache.lucene.index.DefaultIndexingChain.indexDocValue(DefaultIndexingChain.java:608) ~[?:?]
+	at org.apache.lucene.index.DefaultIndexingChain.processField(DefaultIndexingChain.java:467) ~[?:?]
+	at org.apache.lucene.index.DefaultIndexingChain.processDocument(DefaultIndexingChain.java:394) ~[?:?]
+	at org.apache.lucene.index.DocumentsWriterPerThread.updateDocument(DocumentsWriterPerThread.java:251) ~[?:?]
+	at org.apache.lucene.index.DocumentsWriter.updateDocument(DocumentsWriter.java:494) ~[?:?]
+	at org.apache.lucene.index.IndexWriter.updateDocument(IndexWriter.java:1609) ~[?:?]
+	at org.apache.lucene.index.IndexWriter.updateDocument(IndexWriter.java:1601) ~[?:?]
+	at org.apache.solr.update.DirectUpdateHandler2.updateDocOrDocValues(DirectUpdateHandler2.java:964) ~[?:?]
+	at org.apache.solr.update.DirectUpdateHandler2.doNormalUpdate(DirectUpdateHandler2.java:341) ~[?:?]
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc0(DirectUpdateHandler2.java:288) ~[?:?]
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc(DirectUpdateHandler2.java:235) ~[?:?]
+	at org.apache.solr.update.processor.RunUpdateProcessor.processAdd(RunUpdateProcessorFactory.java:67) ~[?:?]
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55) ~[?:?]
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.doLocalAdd(DistributedUpdateProcessor.java:970) ~[?:?]
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:1186) ~[?:?]
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:653) ~[?:?]
+	at org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:103) ~[?:?]
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55) ~[?:?]
+	at org.apache.solr.update.processor.AddSchemaFieldsUpdateProcessorFactory$AddSchemaFieldsUpdateProcessor.processAdd(AddSchemaFieldsUpdateProcessorFactory.java:475) ~[?:?]
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55) ~[?:?]
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118) ~[?:?]
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55) ~[?:?]
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118) ~[?:?]
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55) ~[?:?]
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118) ~[?:?]
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55) ~[?:?]
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118) ~[?:?]
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55) ~[?:?]
+2018-11-26 21:20:20.255 INFO  (qtp12042244-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1543267217408} status=0 QTime=21
+2018-11-26 21:20:20.469 INFO  (qtp12042244-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1543267217411} status=0 QTime=233
+2018-11-26 21:20:20.561 INFO  (qtp12042244-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1543267217411} status=0 QTime=85
+2018-11-26 21:20:25.665 INFO  (qtp12042244-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1543267217408} status=0 QTime=0
+2018-11-26 21:20:25.737 INFO  (qtp12042244-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1543267217411} status=0 QTime=70
+2018-11-26 21:20:25.752 INFO  (qtp12042244-39) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1543267217412&ts=1543267217412} status=503 QTime=37
+2018-11-26 21:20:25.809 INFO  (qtp12042244-23) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/admin/system params={wt=json&_=1543267225629} status=0 QTime=123
+2018-11-26 21:20:25.810 INFO  (qtp12042244-17) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/replication params={wt=json&command=details&_=1543267225630} status=0 QTime=136
+2018-11-26 21:20:25.815 INFO  (qtp12042244-22) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1543267225628} status=0 QTime=145
+2018-11-26 21:20:30.994 INFO  (qtp12042244-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1543267217408} status=0 QTime=0
+2018-11-26 21:20:31.050 INFO  (qtp12042244-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1543267217411} status=0 QTime=54
+2018-11-26 21:20:36.440 INFO  (qtp12042244-17) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=*:*&_=1543267230759} hits=3 status=0 QTime=834
+2018-11-26 21:37:58.856 INFO  (qtp12042244-20) [   x:archives] o.a.s.u.p.LogUpdateProcessorFactory [archives]  webapp=/solr path=/update params={wt=javabin&version=2}{} 0 90217
+2018-11-26 21:37:58.936 ERROR (qtp12042244-20) [   x:archives] o.a.s.s.HttpSolrCall null:java.lang.RuntimeException: java.lang.OutOfMemoryError: Java heap space
+	at org.apache.solr.servlet.HttpSolrCall.sendError(HttpSolrCall.java:662)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:530)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:531)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at org.apache.solr.schema.PointField.createFields(PointField.java:287)
+	at org.apache.solr.update.DocumentBuilder.addField(DocumentBuilder.java:67)
+	at org.apache.solr.update.DocumentBuilder.toDocument(DocumentBuilder.java:171)
+	at org.apache.solr.update.AddUpdateCommand.getLuceneDocument(AddUpdateCommand.java:102)
+	at org.apache.solr.update.DirectUpdateHandler2.updateDocOrDocValues(DirectUpdateHandler2.java:962)
+	at org.apache.solr.update.DirectUpdateHandler2.doNormalUpdate(DirectUpdateHandler2.java:341)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc0(DirectUpdateHandler2.java:288)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc(DirectUpdateHandler2.java:235)
+	at org.apache.solr.update.processor.RunUpdateProcessor.processAdd(RunUpdateProcessorFactory.java:67)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.doLocalAdd(DistributedUpdateProcessor.java:970)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:1186)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:653)
+	at org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:103)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.AddSchemaFieldsUpdateProcessorFactory$AddSchemaFieldsUpdateProcessor.processAdd(AddSchemaFieldsUpdateProcessorFactory.java:475)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldNameMutatingUpdateProcessorFactory$1.processAdd(FieldNameMutatingUpdateProcessorFactory.java:75)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.AbstractDefaultValueUpdateProcessorFactory$DefaultValueUpdateProcessor.processAdd(AbstractDefaultValueUpdateProcessorFactory.java:92)
+	at org.apache.solr.handler.loader.JavabinLoader$1.update(JavabinLoader.java:98)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec$1.readOuterMostDocIterator(JavaBinUpdateRequestCodec.java:188)
+
+2018-11-26 21:37:58.939 WARN  (qtp12042244-20) [   x:archives] o.e.j.s.HttpChannel /solr/archives/update
+java.lang.OutOfMemoryError: Java heap space
+	at org.apache.solr.schema.PointField.createFields(PointField.java:287) ~[?:?]
+	at org.apache.solr.update.DocumentBuilder.addField(DocumentBuilder.java:67) ~[?:?]
+	at org.apache.solr.update.DocumentBuilder.toDocument(DocumentBuilder.java:171) ~[?:?]
+	at org.apache.solr.update.AddUpdateCommand.getLuceneDocument(AddUpdateCommand.java:102) ~[?:?]
+	at org.apache.solr.update.DirectUpdateHandler2.updateDocOrDocValues(DirectUpdateHandler2.java:962) ~[?:?]
+	at org.apache.solr.update.DirectUpdateHandler2.doNormalUpdate(DirectUpdateHandler2.java:341) ~[?:?]
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc0(DirectUpdateHandler2.java:288) ~[?:?]
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc(DirectUpdateHandler2.java:235) ~[?:?]
+	at org.apache.solr.update.processor.RunUpdateProcessor.processAdd(RunUpdateProcessorFactory.java:67) ~[?:?]
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55) ~[?:?]
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.doLocalAdd(DistributedUpdateProcessor.java:970) ~[?:?]
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:1186) ~[?:?]
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:653) ~[?:?]
+	at org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:103) ~[?:?]
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55) ~[?:?]
+	at org.apache.solr.update.processor.AddSchemaFieldsUpdateProcessorFactory$AddSchemaFieldsUpdateProcessor.processAdd(AddSchemaFieldsUpdateProcessorFactory.java:475) ~[?:?]
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55) ~[?:?]
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118) ~[?:?]
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55) ~[?:?]
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118) ~[?:?]
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55) ~[?:?]
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118) ~[?:?]
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55) ~[?:?]
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118) ~[?:?]
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55) ~[?:?]
+	at org.apache.solr.update.processor.FieldNameMutatingUpdateProcessorFactory$1.processAdd(FieldNameMutatingUpdateProcessorFactory.java:75) ~[?:?]
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55) ~[?:?]
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118) ~[?:?]
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55) ~[?:?]
+	at org.apache.solr.update.processor.AbstractDefaultValueUpdateProcessorFactory$DefaultValueUpdateProcessor.processAdd(AbstractDefaultValueUpdateProcessorFactory.java:92) ~[?:?]
+	at org.apache.solr.handler.loader.JavabinLoader$1.update(JavabinLoader.java:98) ~[?:?]
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec$1.readOuterMostDocIterator(JavaBinUpdateRequestCodec.java:188) ~[?:?]
+2018-11-26 21:38:01.142 INFO  (qtp12042244-41) [   x:archives] o.a.s.u.DirectUpdateHandler2 start rollback{}
+2018-11-26 21:38:02.014 INFO  (qtp12042244-41) [   x:archives] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2018-11-26 21:38:02.015 INFO  (qtp12042244-41) [   x:archives] o.a.s.u.DirectUpdateHandler2 end_rollback
+2018-11-26 21:38:02.015 INFO  (qtp12042244-41) [   x:archives] o.a.s.u.p.LogUpdateProcessorFactory [archives]  webapp=/solr path=/update params={rollback=true&wt=javabin&version=2}{rollback=} 0 2214
+2018-11-26 21:39:19.356 INFO  (qtp12042244-18) [   x:archives] o.a.s.u.p.LogUpdateProcessorFactory [archives]  webapp=/solr path=/update params={wt=javabin&version=2}{} 0 80497
+2018-11-26 21:39:19.356 WARN  (qtp12042244-16) [   ] o.e.j.u.t.QueuedThreadPool 
+java.lang.OutOfMemoryError: Java heap space
+2018-11-26 21:39:19.357 ERROR (qtp12042244-18) [   x:archives] o.a.s.s.HttpSolrCall null:java.lang.RuntimeException: java.lang.OutOfMemoryError: Java heap space
+	at org.apache.solr.servlet.HttpSolrCall.sendError(HttpSolrCall.java:662)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:530)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:531)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+
+2018-11-26 21:39:19.358 WARN  (qtp12042244-16) [   ] o.e.j.u.t.QueuedThreadPool Unexpected thread death: org.eclipse.jetty.util.thread.QueuedThreadPool$2@e32f55 in InstrumentedQueuedThreadPool[qtp12042244]@b7c004{STARTED,10<=10<=10000,i=4,q=0}[ReservedThreadExecutor@1e1b42d{s=2/4,p=0}]
+2018-11-26 21:39:19.359 WARN  (qtp12042244-18) [   x:archives] o.e.j.s.HttpChannel /solr/archives/update
+java.lang.OutOfMemoryError: Java heap space
+2018-11-29 13:38:01.346 INFO  (qtp12042244-23) [   x:archives] o.a.s.u.p.LogUpdateProcessorFactory [archives]  webapp=/solr path=/update params={wt=javabin&version=2}{} 0 217110
+2018-11-29 13:38:01.346 WARN  (qtp12042244-41) [   x:archives] o.e.j.u.t.QueuedThreadPool 
+java.lang.OutOfMemoryError: Java heap space
+2018-11-29 13:38:01.346 INFO  (qtp12042244-14) [   x:archives] o.a.s.u.p.LogUpdateProcessorFactory [archives]  webapp=/solr path=/update params={wt=javabin&version=2}{} 0 217119
+2018-11-29 13:38:01.743 WARN  (qtp12042244-41) [   x:archives] o.e.j.u.t.QueuedThreadPool Unexpected thread death: org.eclipse.jetty.util.thread.QueuedThreadPool$2@e32f55 in InstrumentedQueuedThreadPool[qtp12042244]@b7c004{STARTED,10<=10<=10000,i=5,q=0}[ReservedThreadExecutor@1e1b42d{s=0/4,p=0}]
+2018-11-29 13:38:02.288 ERROR (qtp12042244-23) [   x:archives] o.a.s.s.HttpSolrCall null:java.lang.RuntimeException: java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+	at org.apache.solr.servlet.HttpSolrCall.sendError(HttpSolrCall.java:662)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:530)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:531)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+
+2018-11-29 13:38:02.290 WARN  (qtp12042244-23) [   x:archives] o.e.j.s.HttpChannel /solr/archives/update
+java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+2018-11-29 13:38:02.702 ERROR (qtp12042244-14) [   x:archives] o.a.s.s.HttpSolrCall null:java.lang.RuntimeException: java.lang.OutOfMemoryError: Java heap space
+	at org.apache.solr.servlet.HttpSolrCall.sendError(HttpSolrCall.java:662)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:530)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:531)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+
+2018-11-29 13:38:02.704 WARN  (qtp12042244-14) [   x:archives] o.e.j.s.HttpChannel /solr/archives/update
+java.lang.OutOfMemoryError: Java heap space
+2018-11-29 13:38:03.225 INFO  (qtp12042244-14) [   x:archives] o.a.s.u.DirectUpdateHandler2 start rollback{}
+2018-11-29 13:38:03.322 INFO  (qtp12042244-39) [   x:archives] o.a.s.u.DirectUpdateHandler2 start rollback{}
+2018-11-29 13:38:04.948 INFO  (qtp12042244-39) [   x:archives] o.a.s.u.p.LogUpdateProcessorFactory [archives]  webapp=/solr path=/update params={rollback=true&wt=javabin&version=2}{} 0 1627
+2018-11-29 13:38:05.310 ERROR (qtp12042244-39) [   x:archives] o.a.s.h.RequestHandlerBase org.apache.lucene.store.LockObtainFailedException: Lock held by this virtual machine: C:\Users\Administrator\Desktop\Logiciels\solr-7.5.0\solr-7.5.0\server\solr\archives\data\index\write.lock
+	at org.apache.lucene.store.NativeFSLockFactory.obtainFSLock(NativeFSLockFactory.java:139)
+	at org.apache.lucene.store.FSLockFactory.obtainLock(FSLockFactory.java:41)
+	at org.apache.lucene.store.BaseDirectory.obtainLock(BaseDirectory.java:45)
+	at org.apache.lucene.store.FilterDirectory.obtainLock(FilterDirectory.java:105)
+	at org.apache.lucene.index.IndexWriter.<init>(IndexWriter.java:727)
+	at org.apache.solr.update.SolrIndexWriter.<init>(SolrIndexWriter.java:124)
+	at org.apache.solr.update.SolrIndexWriter.create(SolrIndexWriter.java:97)
+	at org.apache.solr.update.DefaultSolrCoreState.createMainIndexWriter(DefaultSolrCoreState.java:257)
+	at org.apache.solr.update.DefaultSolrCoreState.changeWriter(DefaultSolrCoreState.java:220)
+	at org.apache.solr.update.DefaultSolrCoreState.rollbackIndexWriter(DefaultSolrCoreState.java:253)
+	at org.apache.solr.update.DirectUpdateHandler2.rollbackWriter(DirectUpdateHandler2.java:228)
+	at org.apache.solr.update.DirectUpdateHandler2.rollback(DirectUpdateHandler2.java:777)
+	at org.apache.solr.update.processor.RunUpdateProcessor.processRollback(RunUpdateProcessorFactory.java:107)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processRollback(UpdateRequestProcessor.java:76)
+	at org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor.processRollback(LogUpdateProcessorFactory.java:173)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processRollback(UpdateRequestProcessor.java:76)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processRollback(UpdateRequestProcessor.java:76)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processRollback(UpdateRequestProcessor.java:76)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processRollback(UpdateRequestProcessor.java:76)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processRollback(UpdateRequestProcessor.java:76)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processRollback(UpdateRequestProcessor.java:76)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processRollback(UpdateRequestProcessor.java:76)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processRollback(UpdateRequestProcessor.java:76)
+	at org.apache.solr.handler.RequestHandlerUtils.handleRollback(RequestHandlerUtils.java:118)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:62)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2541)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:709)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:515)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:531)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-11-29 13:38:05.322 ERROR (qtp12042244-39) [   x:archives] o.a.s.s.HttpSolrCall null:org.apache.lucene.store.LockObtainFailedException: Lock held by this virtual machine: C:\Users\Administrator\Desktop\Logiciels\solr-7.5.0\solr-7.5.0\server\solr\archives\data\index\write.lock
+	at org.apache.lucene.store.NativeFSLockFactory.obtainFSLock(NativeFSLockFactory.java:139)
+	at org.apache.lucene.store.FSLockFactory.obtainLock(FSLockFactory.java:41)
+	at org.apache.lucene.store.BaseDirectory.obtainLock(BaseDirectory.java:45)
+	at org.apache.lucene.store.FilterDirectory.obtainLock(FilterDirectory.java:105)
+	at org.apache.lucene.index.IndexWriter.<init>(IndexWriter.java:727)
+	at org.apache.solr.update.SolrIndexWriter.<init>(SolrIndexWriter.java:124)
+	at org.apache.solr.update.SolrIndexWriter.create(SolrIndexWriter.java:97)
+	at org.apache.solr.update.DefaultSolrCoreState.createMainIndexWriter(DefaultSolrCoreState.java:257)
+	at org.apache.solr.update.DefaultSolrCoreState.changeWriter(DefaultSolrCoreState.java:220)
+	at org.apache.solr.update.DefaultSolrCoreState.rollbackIndexWriter(DefaultSolrCoreState.java:253)
+	at org.apache.solr.update.DirectUpdateHandler2.rollbackWriter(DirectUpdateHandler2.java:228)
+	at org.apache.solr.update.DirectUpdateHandler2.rollback(DirectUpdateHandler2.java:777)
+	at org.apache.solr.update.processor.RunUpdateProcessor.processRollback(RunUpdateProcessorFactory.java:107)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processRollback(UpdateRequestProcessor.java:76)
+	at org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor.processRollback(LogUpdateProcessorFactory.java:173)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processRollback(UpdateRequestProcessor.java:76)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processRollback(UpdateRequestProcessor.java:76)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processRollback(UpdateRequestProcessor.java:76)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processRollback(UpdateRequestProcessor.java:76)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processRollback(UpdateRequestProcessor.java:76)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processRollback(UpdateRequestProcessor.java:76)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processRollback(UpdateRequestProcessor.java:76)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processRollback(UpdateRequestProcessor.java:76)
+	at org.apache.solr.handler.RequestHandlerUtils.handleRollback(RequestHandlerUtils.java:118)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:62)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2541)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:709)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:515)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:531)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-11-29 13:38:05.380 INFO  (qtp12042244-14) [   x:archives] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2018-11-29 13:38:05.380 INFO  (qtp12042244-14) [   x:archives] o.a.s.u.DirectUpdateHandler2 end_rollback
+2018-11-29 13:38:05.381 INFO  (qtp12042244-14) [   x:archives] o.a.s.u.p.LogUpdateProcessorFactory [archives]  webapp=/solr path=/update params={rollback=true&wt=javabin&version=2}{rollback=} 0 2165
+2018-11-29 13:39:11.788 ERROR (Finalizer) [   ] o.a.s.u.SolrIndexWriter SolrIndexWriter was not closed prior to finalize(), indicates a bug -- POSSIBLE RESOURCE LEAK!!!
+2018-11-29 13:39:11.789 ERROR (Finalizer) [   ] o.a.s.u.SolrIndexWriter Error closing IndexWriter
+java.lang.NullPointerException: null
+	at org.apache.lucene.index.IndexWriter.doFlush(IndexWriter.java:3617) ~[lucene-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:01:13]
+	at org.apache.lucene.index.IndexWriter.flush(IndexWriter.java:3577) ~[lucene-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:01:13]
+	at org.apache.lucene.index.IndexWriter.shutdown(IndexWriter.java:1035) ~[lucene-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:01:13]
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1078) ~[lucene-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:01:13]
+	at org.apache.solr.update.SolrIndexWriter.close(SolrIndexWriter.java:286) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.update.SolrIndexWriter.finalize(SolrIndexWriter.java:342) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at java.lang.System$2.invokeFinalize(System.java:1270) [?:1.8.0_172]
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:102) [?:1.8.0_172]
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:34) [?:1.8.0_172]
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:217) [?:1.8.0_172]
+	Suppressed: java.lang.NullPointerException
+		at org.apache.lucene.index.IndexWriter.rollbackInternalNoCommit(IndexWriter.java:2301) ~[lucene-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:01:13]
+		at org.apache.lucene.index.IndexWriter.rollbackInternal(IndexWriter.java:2281) ~[lucene-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:01:13]
+		at org.apache.lucene.index.IndexWriter.shutdown(IndexWriter.java:1042) ~[lucene-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:01:13]
+		at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1078) ~[lucene-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:01:13]
+		at org.apache.solr.update.SolrIndexWriter.close(SolrIndexWriter.java:286) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+		at org.apache.solr.update.SolrIndexWriter.finalize(SolrIndexWriter.java:342) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+		at java.lang.System$2.invokeFinalize(System.java:1270) [?:1.8.0_172]
+		at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:102) [?:1.8.0_172]
+		at java.lang.ref.Finalizer.access$100(Finalizer.java:34) [?:1.8.0_172]
+		at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:217) [?:1.8.0_172]
+2018-11-29 13:40:01.990 INFO  (qtp12042244-14) [   x:archives] o.a.s.u.p.LogUpdateProcessorFactory [archives]  webapp=/solr path=/update params={wt=javabin&version=2}{} 0 50817
+2018-11-29 13:40:01.990 ERROR (qtp12042244-14) [   x:archives] o.a.s.s.HttpSolrCall null:java.lang.RuntimeException: java.lang.OutOfMemoryError: Java heap space
+	at org.apache.solr.servlet.HttpSolrCall.sendError(HttpSolrCall.java:662)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:530)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:531)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+
+2018-11-29 13:40:01.991 WARN  (qtp12042244-14) [   x:archives] o.e.j.s.HttpChannel /solr/archives/update
+java.lang.OutOfMemoryError: Java heap space
+2018-11-29 13:40:02.029 INFO  (qtp12042244-20) [   x:archives] o.a.s.u.DirectUpdateHandler2 start rollback{}
+2018-11-29 13:40:02.133 INFO  (qtp12042244-20) [   x:archives] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2018-11-29 13:40:02.134 INFO  (qtp12042244-20) [   x:archives] o.a.s.u.DirectUpdateHandler2 end_rollback
+2018-11-29 13:40:02.134 INFO  (qtp12042244-20) [   x:archives] o.a.s.u.p.LogUpdateProcessorFactory [archives]  webapp=/solr path=/update params={rollback=true&wt=javabin&version=2}{rollback=} 0 106
+2018-11-30 15:30:41.219 INFO  (qtp12042244-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1543591835966} status=0 QTime=894
+2018-11-30 15:30:46.371 INFO  (qtp12042244-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1543591835967} status=0 QTime=4446
+2018-11-30 15:30:46.365 INFO  (qtp12042244-43) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1543591835967} status=0 QTime=6686
+2018-11-30 15:31:20.173 INFO  (qtp12042244-43) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1543591835966} status=0 QTime=0
+2018-11-30 15:31:22.413 INFO  (qtp12042244-39) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1543591835967&ts=1543591835967} status=503 QTime=2200
+2018-11-30 15:31:23.145 INFO  (qtp12042244-20) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/admin/system params={wt=json&_=1543591880160} status=0 QTime=2921
+2018-11-30 15:31:24.231 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/replication params={wt=json&command=details&_=1543591880160} status=0 QTime=2691
+2018-11-30 15:31:24.451 INFO  (qtp12042244-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1543591835967} status=0 QTime=154
+2018-11-30 15:31:24.455 INFO  (qtp12042244-43) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1543591880160} status=0 QTime=4174
+2018-11-30 15:32:36.576 INFO  (qtp12042244-39) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2017\-08\-29T22\:00\:00.000Z/DAY+TO+2018\-11\-21T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=0 status=0 QTime=5073
+2018-11-30 15:32:36.576 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2017\-08\-29T22\:00\:00.000Z/DAY+TO+2018\-11\-21T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=0 status=0 QTime=2682
+2018-11-30 15:32:36.576 INFO  (qtp12042244-42) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2017\-08\-29T22\:00\:00.000Z/DAY+TO+2018\-11\-21T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=0 status=0 QTime=1705
+2018-11-30 15:32:36.589 INFO  (qtp12042244-38) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2017\-08\-29T22\:00\:00.000Z/DAY+TO+2018\-11\-21T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=0 status=0 QTime=610
+2018-11-30 15:32:36.702 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2017\-08\-29T22\:00\:00.000Z/DAY+TO+2018\-11\-21T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=0 status=0 QTime=22
+2018-11-30 15:32:40.449 INFO  (qtp12042244-43) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2017\-08\-29T22\:00\:00.000Z/DAY+TO+2018\-11\-21T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=0 status=0 QTime=15
+2018-11-30 15:32:40.893 INFO  (qtp12042244-39) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2017\-08\-29T22\:00\:00.000Z/DAY+TO+2018\-11\-21T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=0 status=0 QTime=37
+2018-11-30 15:32:50.036 INFO  (qtp12042244-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1543591835966} status=0 QTime=0
+2018-11-30 15:32:50.231 INFO  (qtp12042244-43) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1543591835967} status=0 QTime=193
+2018-11-30 15:32:53.652 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=*:*&_=1543591969786} hits=3 status=0 QTime=1
+2018-11-30 15:34:39.903 INFO  (qtp12042244-39) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=65
+2018-11-30 15:34:40.804 INFO  (qtp12042244-23) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=0
+2018-11-30 15:34:41.517 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=20
+2018-11-30 15:34:42.071 INFO  (qtp12042244-44) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=1
+2018-11-30 15:34:42.550 INFO  (qtp12042244-39) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=2
+2018-11-30 15:34:42.841 INFO  (qtp12042244-23) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=20
+2018-11-30 15:34:48.295 INFO  (qtp12042244-20) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=0
+2018-11-30 15:34:48.325 INFO  (qtp12042244-39) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=563
+2018-11-30 15:34:48.509 INFO  (qtp12042244-23) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=1
+2018-11-30 15:34:48.768 INFO  (qtp12042244-44) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=37
+2018-11-30 15:34:49.897 INFO  (qtp12042244-17) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=48
+2018-11-30 15:34:56.852 INFO  (qtp12042244-44) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=1
+2018-11-30 15:34:56.852 INFO  (qtp12042244-23) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=1
+2018-11-30 15:34:56.852 INFO  (qtp12042244-20) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=1
+2018-11-30 15:34:57.547 INFO  (qtp12042244-39) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=1
+2018-11-30 15:34:57.843 INFO  (qtp12042244-20) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=1
+2018-11-30 15:34:58.272 INFO  (qtp12042244-44) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=1
+2018-11-30 15:34:58.428 INFO  (qtp12042244-23) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=1
+2018-11-30 15:34:58.936 INFO  (qtp12042244-17) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=1
+2018-11-30 15:35:16.235 INFO  (qtp12042244-39) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=1
+2018-11-30 15:35:16.516 INFO  (qtp12042244-20) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=0
+2018-11-30 15:35:16.644 INFO  (qtp12042244-44) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=0
+2018-11-30 15:35:16.697 INFO  (qtp12042244-17) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=1
+2018-11-30 15:35:17.276 INFO  (qtp12042244-23) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=0
+2018-11-30 15:35:17.886 INFO  (qtp12042244-39) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=2
+2018-11-30 15:35:17.892 INFO  (qtp12042244-17) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=1
+2018-11-30 15:35:21.340 INFO  (qtp12042244-44) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=id:39a360fd\-6724\-4be5\-9ee7\-c388163658b6&start=0&rows=1&wt=javabin&version=2} hits=1 status=0 QTime=2437
+2018-11-30 15:36:45.044 INFO  (qtp12042244-14) [   x:archives] o.a.s.s.HttpSolrCall Unable to write response, client closed connection or we are shutting down
+org.eclipse.jetty.io.EofException: Closed
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:482) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.apache.solr.servlet.ServletOutputStreamWrapper.write(ServletOutputStreamWrapper.java:134) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.common.util.FastOutputStream.flush(FastOutputStream.java:213) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.FastOutputStream.flushBuffer(FastOutputStream.java:206) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.JavaBinCodec.marshal(JavaBinCodec.java:158) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.response.BinaryResponseWriter.write(BinaryResponseWriter.java:52) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(QueryResponseWriterUtil.java:49) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:787) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:524) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [jetty-security-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335) [jetty-rewrite-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.Server.handle(Server.java:531) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_172]
+	Suppressed: org.eclipse.jetty.io.EofException: Closed
+		at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:482) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.apache.solr.servlet.ServletOutputStreamWrapper.write(ServletOutputStreamWrapper.java:134) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+		at org.apache.solr.common.util.FastOutputStream.flush(FastOutputStream.java:213) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+		at org.apache.solr.common.util.FastOutputStream.flushBuffer(FastOutputStream.java:206) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+		at org.apache.solr.common.util.JavaBinCodec.close(JavaBinCodec.java:1201) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+		at org.apache.solr.response.BinaryResponseWriter.write(BinaryResponseWriter.java:53) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+		at org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(QueryResponseWriterUtil.java:49) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+		at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:787) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+		at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:524) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+		at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+		at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+		at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [jetty-security-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335) [jetty-rewrite-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.Server.handle(Server.java:531) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at java.lang.Thread.run(Thread.java:748) [?:1.8.0_172]
+2018-11-30 15:36:46.890 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=2
+2018-11-30 15:37:33.955 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=1
+2018-11-30 15:37:53.137 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=0
+2018-11-30 15:38:18.851 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=2
+2018-11-30 15:38:19.800 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=0
+2018-11-30 15:38:20.135 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=1
+2018-11-30 15:38:20.748 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=1
+2018-11-30 15:38:21.696 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=0
+2018-11-30 15:38:22.030 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=2
+2018-11-30 15:38:22.236 INFO  (qtp12042244-43) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=1
+2018-11-30 15:38:22.484 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=3
+2018-11-30 15:38:22.805 INFO  (qtp12042244-17) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=25
+2018-11-30 15:38:22.922 INFO  (qtp12042244-43) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=1
+2018-11-30 15:38:23.079 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=4
+2018-11-30 15:38:23.549 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=5
+2018-11-30 15:38:23.927 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=1
+2018-11-30 15:38:24.383 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=1
+2018-11-30 15:38:24.784 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=1
+2018-11-30 15:38:25.238 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=1
+2018-11-30 15:38:25.585 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=3
+2018-11-30 15:38:26.098 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=1
+2018-11-30 15:38:26.588 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=1
+2018-11-30 15:43:10.443 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=22
+2018-11-30 15:43:13.621 INFO  (qtp12042244-43) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=1
+2018-11-30 15:43:14.139 INFO  (qtp12042244-42) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=0
+2018-11-30 15:43:15.162 INFO  (qtp12042244-43) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2018\-11\-21T23\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=1
+2018-11-30 15:45:10.712 INFO  (qtp12042244-14) [   x:archives] o.a.s.s.HttpSolrCall Unable to write response, client closed connection or we are shutting down
+org.eclipse.jetty.io.EofException: Closed
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:482) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.apache.solr.servlet.ServletOutputStreamWrapper.write(ServletOutputStreamWrapper.java:134) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.common.util.FastOutputStream.flush(FastOutputStream.java:213) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.FastOutputStream.flushBuffer(FastOutputStream.java:206) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.JavaBinCodec.marshal(JavaBinCodec.java:158) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.response.BinaryResponseWriter.write(BinaryResponseWriter.java:52) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(QueryResponseWriterUtil.java:49) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:787) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:524) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [jetty-security-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335) [jetty-rewrite-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.Server.handle(Server.java:531) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_172]
+	Suppressed: org.eclipse.jetty.io.EofException: Closed
+		at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:482) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.apache.solr.servlet.ServletOutputStreamWrapper.write(ServletOutputStreamWrapper.java:134) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+		at org.apache.solr.common.util.FastOutputStream.flush(FastOutputStream.java:213) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+		at org.apache.solr.common.util.FastOutputStream.flushBuffer(FastOutputStream.java:206) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+		at org.apache.solr.common.util.JavaBinCodec.close(JavaBinCodec.java:1201) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+		at org.apache.solr.response.BinaryResponseWriter.write(BinaryResponseWriter.java:53) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+		at org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(QueryResponseWriterUtil.java:49) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+		at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:787) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+		at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:524) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+		at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+		at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+		at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [jetty-security-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335) [jetty-rewrite-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.Server.handle(Server.java:531) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+		at java.lang.Thread.run(Thread.java:748) [?:1.8.0_172]
+2018-12-03 12:08:15.660 INFO  (qtp12042244-46) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1543838893327} status=0 QTime=247
+2018-12-03 12:08:16.300 INFO  (qtp12042244-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1543838893327} status=0 QTime=1076
+2018-12-03 12:08:16.466 INFO  (qtp12042244-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1543838893327} status=0 QTime=160
+2018-12-03 12:08:18.859 INFO  (qtp12042244-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1543838893327} status=0 QTime=0
+2018-12-03 12:08:19.076 INFO  (qtp12042244-20) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1543838893327&ts=1543838893327} status=503 QTime=100
+2018-12-03 12:08:19.064 INFO  (qtp12042244-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1543838893327} status=0 QTime=203
+2018-12-03 12:08:19.476 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1543838898844} status=0 QTime=611
+2018-12-03 12:08:19.748 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/admin/system params={wt=json&_=1543838898845} status=0 QTime=247
+2018-12-03 12:08:19.888 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/replication params={wt=json&command=details&_=1543838898845} status=0 QTime=138
+2018-12-03 12:14:57.863 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=date:[2017\-08\-29T22\:00\:00.000Z/DAY+TO+2018\-11\-29T23\:00\:00.000Z/DAY]&wt=javabin&version=2} hits=3 status=0 QTime=928
+2018-12-03 13:17:36.893 INFO  (qtp12042244-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1543843053521} status=0 QTime=1335
+2018-12-03 13:17:36.893 INFO  (qtp12042244-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1543843053524} status=0 QTime=1192
+2018-12-03 13:17:36.932 INFO  (qtp12042244-49) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/admin/system params={wt=json&_=1543843055354} status=0 QTime=995
+2018-12-03 13:17:36.979 INFO  (qtp12042244-43) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1543843055354} status=0 QTime=772
+2018-12-03 13:17:37.054 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/replication params={wt=json&command=details&_=1543843055354} status=0 QTime=52
+2018-12-03 13:17:37.062 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1543843053525&ts=1543843053524} status=503 QTime=0
+2018-12-03 15:53:26.464 INFO  (qtp12042244-20) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1543852400186&ts=1543852400186} status=503 QTime=981
+2018-12-03 15:53:26.464 INFO  (qtp12042244-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1543852400184} status=0 QTime=971
+2018-12-03 15:53:29.249 INFO  (qtp12042244-46) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1543852404383} status=0 QTime=4183
+2018-12-03 15:53:31.090 INFO  (qtp12042244-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1543852400186} status=0 QTime=3472
+2018-12-03 15:53:31.573 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/replication params={wt=json&command=details&_=1543852404388} status=0 QTime=480
+2018-12-03 15:53:31.588 INFO  (qtp12042244-23) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/admin/system params={wt=json&_=1543852404384} status=0 QTime=6518
+2018-12-04 09:35:25.655 INFO  (qtp12042244-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1543852400184} status=0 QTime=2167
+2018-12-04 09:35:27.914 INFO  (qtp12042244-51) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1543852400186} status=0 QTime=3141
+2018-12-04 09:35:31.852 INFO  (qtp12042244-20) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=*:*&_=1543916122387} hits=3 status=0 QTime=1695
+2018-12-04 09:35:33.495 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=*:*&_=1543916122387} hits=3 status=0 QTime=0
+2018-12-04 09:35:44.144 INFO  (qtp12042244-14) [   x:archives] o.a.s.s.HttpSolrCall Unable to write response, client closed connection or we are shutting down
+org.eclipse.jetty.io.EofException: null
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:286) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.WriteFlusher.flush(WriteFlusher.java:429) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.WriteFlusher.write(WriteFlusher.java:323) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.AbstractEndPoint.write(AbstractEndPoint.java:380) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection$SendCallback.process(HttpConnection.java:804) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.IteratingCallback.processing(IteratingCallback.java:241) ~[jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.IteratingCallback.iterate(IteratingCallback.java:224) ~[jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection.send(HttpConnection.java:538) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.sendResponse(HttpChannel.java:795) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.write(HttpChannel.java:846) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:240) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:216) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:628) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.apache.solr.servlet.ServletOutputStreamWrapper.write(ServletOutputStreamWrapper.java:126) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.QueryResponseWriterUtil$1.write(QueryResponseWriterUtil.java:54) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at java.io.OutputStream.write(OutputStream.java:116) ~[?:1.8.0_172]
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221) ~[?:1.8.0_172]
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282) ~[?:1.8.0_172]
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125) ~[?:1.8.0_172]
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207) ~[?:1.8.0_172]
+	at org.apache.solr.common.util.FastWriter.flush(FastWriter.java:140) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.FastWriter.write(FastWriter.java:94) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.TextWriter.indent(TextWriter.java:228) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.TextWriter.indent(TextWriter.java:220) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.JsonTextWriter.writeJsonIter(JsonTextWriter.java:193) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.JsonTextWriter.writeArray(JsonTextWriter.java:276) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.TextWriter.writeVal(TextWriter.java:78) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.response.TextResponseWriter.writeVal(TextResponseWriter.java:152) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.JSONWriter.writeSolrDocument(JSONWriter.java:106) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.TextResponseWriter.writeDocuments(TextResponseWriter.java:184) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.TextResponseWriter.writeVal(TextResponseWriter.java:136) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.common.util.JsonTextWriter.writeNamedListAsMapWithDups(JsonTextWriter.java:386) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.JsonTextWriter.writeNamedList(JsonTextWriter.java:292) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.response.JSONWriter.writeResponse(JSONWriter.java:73) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.JSONResponseWriter.write(JSONResponseWriter.java:66) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(QueryResponseWriterUtil.java:65) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:787) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:524) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [jetty-security-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335) [jetty-rewrite-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.Server.handle(Server.java:531) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_172]
+Caused by: java.io.IOException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+	at sun.nio.ch.SocketDispatcher.writev0(Native Method) ~[?:1.8.0_172]
+	at sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:55) ~[?:1.8.0_172]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:148) ~[?:1.8.0_172]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:504) ~[?:1.8.0_172]
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:266) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	... 73 more
+2018-12-04 09:35:44.095 INFO  (qtp12042244-20) [   x:archives] o.a.s.s.HttpSolrCall Unable to write response, client closed connection or we are shutting down
+org.eclipse.jetty.io.EofException: null
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:286) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.WriteFlusher.flush(WriteFlusher.java:429) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.WriteFlusher.write(WriteFlusher.java:323) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.AbstractEndPoint.write(AbstractEndPoint.java:380) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection$SendCallback.process(HttpConnection.java:804) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.IteratingCallback.processing(IteratingCallback.java:241) ~[jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.IteratingCallback.iterate(IteratingCallback.java:224) ~[jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection.send(HttpConnection.java:538) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.sendResponse(HttpChannel.java:795) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.write(HttpChannel.java:846) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:240) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:216) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:628) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.apache.solr.servlet.ServletOutputStreamWrapper.write(ServletOutputStreamWrapper.java:126) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.QueryResponseWriterUtil$1.write(QueryResponseWriterUtil.java:54) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at java.io.OutputStream.write(OutputStream.java:116) ~[?:1.8.0_172]
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221) ~[?:1.8.0_172]
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282) ~[?:1.8.0_172]
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125) ~[?:1.8.0_172]
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207) ~[?:1.8.0_172]
+	at org.apache.solr.common.util.FastWriter.flush(FastWriter.java:140) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.FastWriter.write(FastWriter.java:94) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.TextWriter.indent(TextWriter.java:228) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.TextWriter.indent(TextWriter.java:220) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.JsonTextWriter.writeJsonIter(JsonTextWriter.java:193) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.JsonTextWriter.writeArray(JsonTextWriter.java:276) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.TextWriter.writeVal(TextWriter.java:78) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.response.TextResponseWriter.writeVal(TextResponseWriter.java:152) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.JSONWriter.writeSolrDocument(JSONWriter.java:106) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.TextResponseWriter.writeDocuments(TextResponseWriter.java:184) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.TextResponseWriter.writeVal(TextResponseWriter.java:136) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.common.util.JsonTextWriter.writeNamedListAsMapWithDups(JsonTextWriter.java:386) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.JsonTextWriter.writeNamedList(JsonTextWriter.java:292) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.response.JSONWriter.writeResponse(JSONWriter.java:73) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.JSONResponseWriter.write(JSONResponseWriter.java:66) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(QueryResponseWriterUtil.java:65) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:787) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:524) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [jetty-security-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335) [jetty-rewrite-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.Server.handle(Server.java:531) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_172]
+Caused by: java.io.IOException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+	at sun.nio.ch.SocketDispatcher.writev0(Native Method) ~[?:1.8.0_172]
+	at sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:55) ~[?:1.8.0_172]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:148) ~[?:1.8.0_172]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:504) ~[?:1.8.0_172]
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:266) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	... 73 more
+2018-12-04 09:35:46.081 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=*:*&_=1543916122387} hits=3 status=0 QTime=62
+2018-12-04 09:35:46.394 INFO  (qtp12042244-14) [   x:archives] o.a.s.s.HttpSolrCall Unable to write response, client closed connection or we are shutting down
+org.eclipse.jetty.io.EofException: null
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:286) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.WriteFlusher.flush(WriteFlusher.java:429) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.WriteFlusher.write(WriteFlusher.java:323) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.AbstractEndPoint.write(AbstractEndPoint.java:380) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection$SendCallback.process(HttpConnection.java:804) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.IteratingCallback.processing(IteratingCallback.java:241) ~[jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.IteratingCallback.iterate(IteratingCallback.java:224) ~[jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection.send(HttpConnection.java:538) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.sendResponse(HttpChannel.java:795) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.write(HttpChannel.java:846) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:240) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:216) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:628) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.apache.solr.servlet.ServletOutputStreamWrapper.write(ServletOutputStreamWrapper.java:126) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.QueryResponseWriterUtil$1.write(QueryResponseWriterUtil.java:54) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at java.io.OutputStream.write(OutputStream.java:116) ~[?:1.8.0_172]
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221) ~[?:1.8.0_172]
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282) ~[?:1.8.0_172]
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125) ~[?:1.8.0_172]
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207) ~[?:1.8.0_172]
+	at org.apache.solr.common.util.FastWriter.flush(FastWriter.java:140) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.FastWriter.write(FastWriter.java:94) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.TextWriter.indent(TextWriter.java:228) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.TextWriter.indent(TextWriter.java:220) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.JsonTextWriter.writeJsonIter(JsonTextWriter.java:193) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.JsonTextWriter.writeArray(JsonTextWriter.java:276) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.TextWriter.writeVal(TextWriter.java:78) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.response.TextResponseWriter.writeVal(TextResponseWriter.java:152) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.JSONWriter.writeSolrDocument(JSONWriter.java:106) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.TextResponseWriter.writeDocuments(TextResponseWriter.java:184) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.TextResponseWriter.writeVal(TextResponseWriter.java:136) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.common.util.JsonTextWriter.writeNamedListAsMapWithDups(JsonTextWriter.java:386) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.JsonTextWriter.writeNamedList(JsonTextWriter.java:292) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.response.JSONWriter.writeResponse(JSONWriter.java:73) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.JSONResponseWriter.write(JSONResponseWriter.java:66) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(QueryResponseWriterUtil.java:65) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:787) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:524) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [jetty-security-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335) [jetty-rewrite-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.Server.handle(Server.java:531) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_172]
+Caused by: java.io.IOException: Une connexion existante a dû être fermée par l’hôte distant
+	at sun.nio.ch.SocketDispatcher.writev0(Native Method) ~[?:1.8.0_172]
+	at sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:55) ~[?:1.8.0_172]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:148) ~[?:1.8.0_172]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:504) ~[?:1.8.0_172]
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:266) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	... 73 more
+2018-12-04 09:35:46.474 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=*:*&_=1543916122387} hits=3 status=0 QTime=0
+2018-12-04 09:35:48.033 INFO  (qtp12042244-14) [   x:archives] o.a.s.s.HttpSolrCall Unable to write response, client closed connection or we are shutting down
+org.eclipse.jetty.io.EofException: null
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:286) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.WriteFlusher.flush(WriteFlusher.java:429) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.WriteFlusher.write(WriteFlusher.java:323) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.AbstractEndPoint.write(AbstractEndPoint.java:380) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection$SendCallback.process(HttpConnection.java:804) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.IteratingCallback.processing(IteratingCallback.java:241) ~[jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.IteratingCallback.iterate(IteratingCallback.java:224) ~[jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection.send(HttpConnection.java:538) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.sendResponse(HttpChannel.java:795) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.write(HttpChannel.java:846) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:240) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:216) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:628) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.apache.solr.servlet.ServletOutputStreamWrapper.write(ServletOutputStreamWrapper.java:126) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.QueryResponseWriterUtil$1.write(QueryResponseWriterUtil.java:54) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at java.io.OutputStream.write(OutputStream.java:116) ~[?:1.8.0_172]
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221) ~[?:1.8.0_172]
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282) ~[?:1.8.0_172]
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125) ~[?:1.8.0_172]
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207) ~[?:1.8.0_172]
+	at org.apache.solr.common.util.FastWriter.flush(FastWriter.java:140) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.FastWriter.write(FastWriter.java:94) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.TextWriter.indent(TextWriter.java:228) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.TextWriter.indent(TextWriter.java:220) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.JsonTextWriter.writeJsonIter(JsonTextWriter.java:193) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.JsonTextWriter.writeArray(JsonTextWriter.java:276) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.TextWriter.writeVal(TextWriter.java:78) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.response.TextResponseWriter.writeVal(TextResponseWriter.java:152) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.JSONWriter.writeSolrDocument(JSONWriter.java:106) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.TextResponseWriter.writeDocuments(TextResponseWriter.java:184) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.TextResponseWriter.writeVal(TextResponseWriter.java:136) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.common.util.JsonTextWriter.writeNamedListAsMapWithDups(JsonTextWriter.java:386) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.JsonTextWriter.writeNamedList(JsonTextWriter.java:292) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.response.JSONWriter.writeResponse(JSONWriter.java:73) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.JSONResponseWriter.write(JSONResponseWriter.java:66) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(QueryResponseWriterUtil.java:65) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:787) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:524) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [jetty-security-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335) [jetty-rewrite-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.Server.handle(Server.java:531) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_172]
+Caused by: java.io.IOException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+	at sun.nio.ch.SocketDispatcher.writev0(Native Method) ~[?:1.8.0_172]
+	at sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:55) ~[?:1.8.0_172]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:148) ~[?:1.8.0_172]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:504) ~[?:1.8.0_172]
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:266) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	... 73 more
+2018-12-04 09:35:51.993 INFO  (qtp12042244-47) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=*:*&_=1543916122387} hits=3 status=0 QTime=1
+2018-12-04 09:36:31.062 INFO  (qtp12042244-20) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=*:*&_=1543916122387} hits=3 status=0 QTime=0
+2018-12-04 09:36:34.763 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=*:*&_=1543916122387} hits=3 status=0 QTime=0
+2018-12-04 09:36:38.593 INFO  (qtp12042244-14) [   x:archives] o.a.s.s.HttpSolrCall Unable to write response, client closed connection or we are shutting down
+org.eclipse.jetty.io.EofException: null
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:286) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.WriteFlusher.flush(WriteFlusher.java:429) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.WriteFlusher.write(WriteFlusher.java:323) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.AbstractEndPoint.write(AbstractEndPoint.java:380) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection$SendCallback.process(HttpConnection.java:804) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.IteratingCallback.processing(IteratingCallback.java:241) ~[jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.IteratingCallback.iterate(IteratingCallback.java:224) ~[jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection.send(HttpConnection.java:538) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.sendResponse(HttpChannel.java:795) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.write(HttpChannel.java:846) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:240) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:216) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:628) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.apache.solr.servlet.ServletOutputStreamWrapper.write(ServletOutputStreamWrapper.java:126) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.QueryResponseWriterUtil$1.write(QueryResponseWriterUtil.java:54) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at java.io.OutputStream.write(OutputStream.java:116) ~[?:1.8.0_172]
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221) ~[?:1.8.0_172]
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282) ~[?:1.8.0_172]
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125) ~[?:1.8.0_172]
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207) ~[?:1.8.0_172]
+	at org.apache.solr.common.util.FastWriter.flush(FastWriter.java:140) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.FastWriter.write(FastWriter.java:94) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.TextWriter.indent(TextWriter.java:228) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.TextWriter.indent(TextWriter.java:220) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.JsonTextWriter.writeJsonIter(JsonTextWriter.java:193) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.JsonTextWriter.writeArray(JsonTextWriter.java:276) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.TextWriter.writeVal(TextWriter.java:78) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.response.TextResponseWriter.writeVal(TextResponseWriter.java:152) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.JSONWriter.writeSolrDocument(JSONWriter.java:106) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.TextResponseWriter.writeDocuments(TextResponseWriter.java:184) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.TextResponseWriter.writeVal(TextResponseWriter.java:136) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.common.util.JsonTextWriter.writeNamedListAsMapWithDups(JsonTextWriter.java:386) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.JsonTextWriter.writeNamedList(JsonTextWriter.java:292) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.response.JSONWriter.writeResponse(JSONWriter.java:73) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.JSONResponseWriter.write(JSONResponseWriter.java:66) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(QueryResponseWriterUtil.java:65) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:787) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:524) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [jetty-security-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335) [jetty-rewrite-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.Server.handle(Server.java:531) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_172]
+Caused by: java.io.IOException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+	at sun.nio.ch.SocketDispatcher.writev0(Native Method) ~[?:1.8.0_172]
+	at sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:55) ~[?:1.8.0_172]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:148) ~[?:1.8.0_172]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:504) ~[?:1.8.0_172]
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:266) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	... 73 more
+2018-12-04 09:36:44.319 INFO  (qtp12042244-20) [   x:archives] o.a.s.s.HttpSolrCall Unable to write response, client closed connection or we are shutting down
+org.eclipse.jetty.io.EofException: null
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:286) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.WriteFlusher.flush(WriteFlusher.java:429) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.WriteFlusher.write(WriteFlusher.java:323) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.AbstractEndPoint.write(AbstractEndPoint.java:380) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection$SendCallback.process(HttpConnection.java:804) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.IteratingCallback.processing(IteratingCallback.java:241) ~[jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.IteratingCallback.iterate(IteratingCallback.java:224) ~[jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection.send(HttpConnection.java:538) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.sendResponse(HttpChannel.java:795) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.write(HttpChannel.java:846) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:240) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:216) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:628) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.apache.solr.servlet.ServletOutputStreamWrapper.write(ServletOutputStreamWrapper.java:126) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.QueryResponseWriterUtil$1.write(QueryResponseWriterUtil.java:54) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at java.io.OutputStream.write(OutputStream.java:116) ~[?:1.8.0_172]
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221) ~[?:1.8.0_172]
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282) ~[?:1.8.0_172]
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125) ~[?:1.8.0_172]
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207) ~[?:1.8.0_172]
+	at org.apache.solr.common.util.FastWriter.flush(FastWriter.java:140) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.FastWriter.write(FastWriter.java:94) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.TextWriter.indent(TextWriter.java:228) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.TextWriter.indent(TextWriter.java:220) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.JsonTextWriter.writeJsonIter(JsonTextWriter.java:193) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.JsonTextWriter.writeArray(JsonTextWriter.java:276) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.TextWriter.writeVal(TextWriter.java:78) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.response.TextResponseWriter.writeVal(TextResponseWriter.java:152) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.JSONWriter.writeSolrDocument(JSONWriter.java:106) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.TextResponseWriter.writeDocuments(TextResponseWriter.java:184) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.TextResponseWriter.writeVal(TextResponseWriter.java:136) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.common.util.JsonTextWriter.writeNamedListAsMapWithDups(JsonTextWriter.java:386) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.JsonTextWriter.writeNamedList(JsonTextWriter.java:292) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.response.JSONWriter.writeResponse(JSONWriter.java:73) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.JSONResponseWriter.write(JSONResponseWriter.java:66) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(QueryResponseWriterUtil.java:65) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:787) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:524) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [jetty-security-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335) [jetty-rewrite-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.Server.handle(Server.java:531) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_172]
+Caused by: java.io.IOException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+	at sun.nio.ch.SocketDispatcher.writev0(Native Method) ~[?:1.8.0_172]
+	at sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:55) ~[?:1.8.0_172]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:148) ~[?:1.8.0_172]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:504) ~[?:1.8.0_172]
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:266) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	... 73 more
+2018-12-04 09:36:53.457 INFO  (qtp12042244-46) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1543916210757} status=0 QTime=0
+2018-12-04 09:36:53.676 INFO  (qtp12042244-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1543916210761} status=0 QTime=785
+2018-12-04 09:41:38.210 INFO  (qtp12042244-49) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=*:*&_=1543916211994} hits=3 status=0 QTime=0
+2018-12-05 11:25:50.636 INFO  (qtp12042244-49) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1544009122362} status=0 QTime=14987
+2018-12-05 11:25:50.636 INFO  (qtp12042244-46) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1544009122362} status=0 QTime=11063
+2018-12-05 11:25:50.636 INFO  (qtp12042244-39) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1544009122362} status=0 QTime=1180
+2018-12-05 11:26:11.903 INFO  (qtp12042244-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1544009122363} status=0 QTime=13351
+2018-12-05 11:26:11.908 INFO  (qtp12042244-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1544009122363} status=0 QTime=37786
+2018-12-05 11:26:12.029 INFO  (qtp12042244-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1544009122363} status=0 QTime=24797
+2018-12-05 11:26:12.631 INFO  (qtp12042244-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1544009122363} status=0 QTime=103
+2018-12-05 11:26:13.995 INFO  (qtp12042244-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1544009122363} status=0 QTime=1102
+2018-12-05 14:56:32.904 INFO  (qtp12042244-39) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=*:*&_=1544009125700} hits=3 status=0 QTime=2407
+2018-12-05 14:56:34.537 INFO  (qtp12042244-39) [   x:archives] o.a.s.s.HttpSolrCall Unable to write response, client closed connection or we are shutting down
+org.eclipse.jetty.io.EofException: null
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:286) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.WriteFlusher.flush(WriteFlusher.java:429) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.WriteFlusher.write(WriteFlusher.java:323) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.AbstractEndPoint.write(AbstractEndPoint.java:380) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection$SendCallback.process(HttpConnection.java:804) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.IteratingCallback.processing(IteratingCallback.java:241) ~[jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.IteratingCallback.iterate(IteratingCallback.java:224) ~[jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection.send(HttpConnection.java:538) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.sendResponse(HttpChannel.java:795) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.write(HttpChannel.java:846) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:240) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:216) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:628) ~[jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.apache.solr.servlet.ServletOutputStreamWrapper.write(ServletOutputStreamWrapper.java:126) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.QueryResponseWriterUtil$1.write(QueryResponseWriterUtil.java:54) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at java.io.OutputStream.write(OutputStream.java:116) ~[?:1.8.0_172]
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221) ~[?:1.8.0_172]
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282) ~[?:1.8.0_172]
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125) ~[?:1.8.0_172]
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207) ~[?:1.8.0_172]
+	at org.apache.solr.common.util.FastWriter.flush(FastWriter.java:140) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.FastWriter.write(FastWriter.java:94) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.TextWriter.indent(TextWriter.java:228) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.TextWriter.indent(TextWriter.java:220) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.JsonTextWriter.writeJsonIter(JsonTextWriter.java:193) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.JsonTextWriter.writeArray(JsonTextWriter.java:276) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.TextWriter.writeVal(TextWriter.java:78) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.response.TextResponseWriter.writeVal(TextResponseWriter.java:152) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.JSONWriter.writeSolrDocument(JSONWriter.java:106) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.TextResponseWriter.writeDocuments(TextResponseWriter.java:184) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.TextResponseWriter.writeVal(TextResponseWriter.java:136) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.common.util.JsonTextWriter.writeNamedListAsMapWithDups(JsonTextWriter.java:386) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.common.util.JsonTextWriter.writeNamedList(JsonTextWriter.java:292) ~[solr-solrj-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:58]
+	at org.apache.solr.response.JSONWriter.writeResponse(JSONWriter.java:73) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.JSONResponseWriter.write(JSONResponseWriter.java:66) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(QueryResponseWriterUtil.java:65) ~[solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:787) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:524) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323) [solr-core-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:07:55]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [jetty-security-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) [jetty-servlet-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335) [jetty-rewrite-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.Server.handle(Server.java:531) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260) [jetty-server-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118) [jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_172]
+Caused by: java.io.IOException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+	at sun.nio.ch.SocketDispatcher.writev0(Native Method) ~[?:1.8.0_172]
+	at sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:55) ~[?:1.8.0_172]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:148) ~[?:1.8.0_172]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:504) ~[?:1.8.0_172]
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:266) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	... 68 more
+2018-12-05 14:57:56.091 INFO  (qtp12042244-14) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=*:*&_=1544009125700} hits=3 status=0 QTime=0
+2018-12-05 14:57:59.626 INFO  (qtp12042244-20) [   x:archives] o.a.s.c.S.Request [archives]  webapp=/solr path=/select params={q=*:*&_=1544009125700} hits=3 status=0 QTime=0
+2018-12-05 14:59:09.267 INFO  (qtp12042244-20) [   x:archives] o.a.s.s.HttpSolrCall Unable to write response, client closed connection or we are shutting down
+org.eclipse.jetty.io.EofException: null
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:286) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.WriteFlusher.flush(WriteFlusher.java:429) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.WriteFlusher.completeWrite(WriteFlusher.java:384) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.io.ChannelEndPoint$3.run(ChannelEndPoint.java:133) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) ~[jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:295) ~[jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) ~[jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126) ~[jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366) ~[jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680) [jetty-util-9.4.11.v20180605.jar:9.4.11.v20180605]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_172]
+Caused by: java.io.IOException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+	at sun.nio.ch.SocketDispatcher.writev0(Native Method) ~[?:1.8.0_172]
+	at sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:55) ~[?:1.8.0_172]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:148) ~[?:1.8.0_172]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:504) ~[?:1.8.0_172]
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:266) ~[jetty-io-9.4.11.v20180605.jar:9.4.11.v20180605]
+	... 11 more

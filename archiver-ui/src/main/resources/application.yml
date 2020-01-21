@@ -1,0 +1,144 @@
+### Spring internal configuration
+# Server general configuration
+server:
+  port: 8443
+  context-path: /fidus-online-back
+  compression:
+    enabled: true
+    min-response-size: 1024
+    mime-types: "text/html,text/xml,text/css,text/javascript, application/x-javascript,application/javascript,application/json,application/xml"
+  ssl:
+    enabled: true
+    key-store-type: JKS
+    key-store: classpath:keystore.jks
+    key-store-password: keystore
+    key-alias: localhost
+    key-password: keystore
+    trust-store-type: JKS
+    trust-store: classpath:truststore.jks
+    trust-store-password: keystore
+## Application Configuration
+idm:
+  backend:
+    passwordPolicy:
+      accessManagementResetUrl: myprofile/password-forgotten-reset
+      # valid only for 8 hours by default
+      resetValidityHours: 8
+      # maximum password stored by default 5
+      maxPasswordHistory: 5
+    mailing:
+      fromSenderAddress: no-reply-test@cirb.brussels
+      subjectPrefix: '[CIRB-CIBG][FIDUS-ONLINE]'
+      #dummyToAddress: fidus-online-test@cirb.brussels
+    environment: local
+    cors:
+      enabled: true
+      allowedOrigin: https://localhost:8445
+    documentation:
+      enabled: true
+    security:
+      captcha:
+        url: https://www.google.com/recaptcha/api/siteverify
+        secretKey: 6LfEbIcUAAAAADPXbw90Nxj2Oeu79aZFHW_viQc4
+      crypto:
+        keystore:
+          path: /security/crypto/briamCrypto.jceks
+          password: br1am$$2016
+        key:
+          alias: briamCryptoKey
+          password: br1am$$2016
+## (Br)IAM Commons Crypto
+
+# mail configuration
+spring:
+  mail:
+    default-encoding: UTF-8
+    host: relay.irisnet.be
+    port: 25
+    username: no-reply-test@cirb.brussels
+    password: Init1238
+    protocol: smtp
+    test-connection: false
+    properties:
+      mail:
+        smtp:
+          debug: true
+          connectiontimeout: 5000
+          timeout: 3000
+          writetimeout: 5000
+  #          auth: true
+  #          starttls: true
+  # Data-source configuration
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:postgresql://localhost:5432/test
+    username: postgres
+    password: admin
+    hikari:
+      connection-test-query: SELECT 1
+      minimum-idle: 2
+      maximum-pool-size: 10
+      idleTimeout: 30000
+      maxLifetime: 2000000
+      connectionTimeout: 300000
+      pool-name: BriamIDMHikariCP
+      auto-commit: true
+
+liquibase:
+  change-log: classpath:liquibase/db.changelog-master.xml
+# Spring actuator configuration for shutdown service call
+security:
+  user:
+    name: management
+    password: management
+    role:
+      - ACTUATOR
+  oauth2:
+    client:
+      #client-id: 7ZUexyCcbKA7TomyF5DyahP2zPsa
+      scope: read write openid oidc:bric
+    #        user-authorization-uri: https://localhost:9443/oauth2/authorize
+    #        registered-redirect-uri: https://localhost:8445/
+    resource:
+      user-info-uri: https://idp-test.irisnetlab.be/oauth2/userinfo?schema=openid
+      prefer-token-info: false
+  require-ssl: true
+briamssoclient:
+  openidconnect:
+    sp:
+      redirect-login-uri: https://accessmanagement-test.irisnetlab.be/
+      #      redirect-logout-uri: https://localhost:8445/
+      resource-server-stateless: true
+      resource-code: "accessmanagement"
+management:
+  context-path: /management
+endpoints:
+  shutdown:
+    enabled: true
+  health:
+    enabled: true
+  trace:
+    enabled: true
+    sensitive: false
+logging:
+  #  file: idm-back.log
+  #  path: logs
+  pattern:
+    console: '[%-5p] %d | %c{1}:%L | %m%n'
+    file: '[%-5p] %d | %c{1}:%L | %m%n'
+  level:
+    liquibase: INFO
+    org.springframework: ERROR
+    org.springframework.boot: ERROR
+    org.springframework.web: ERROR
+    org.springframework.web.servlet.DispatcherServlet: ERROR
+    org.springframework.ws.client: ERROR
+    org.springframework.ws.client.MessageTracing: ERROR
+    org.springframework.security: ERROR
+    org.springframework.security.web.FilterChainProxy: ERROR
+    org.springframework.boot.actuate: DEBUG
+    org.springframework.boot.autoconfigure: ERROR
+    org.hibernate.SQL: ERROR
+    org.hibernate.type.descriptor.sql: ERROR
+    brussels.bric.iam: DEBUG

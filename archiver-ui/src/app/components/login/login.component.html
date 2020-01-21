@@ -1,0 +1,26 @@
+<div class="content" fxLayout="row" fxLayoutAlign="center">
+  <mat-card elevation="5" fxFlex>
+    <mat-card-subtitle>
+      <!-- <h2>Recherche d'archives</h2> -->
+    </mat-card-subtitle>
+
+    <mat-card-title>
+      <h2>Authentification</h2>
+    </mat-card-title>
+
+    <mat-card-content>
+      <form *ngIf="!submitted" [formGroup]="form" (ngSubmit)="onSubmit()" #loginForm="ngForm">
+        <mat-form-field>
+          <input matInput formControlName="login" required placeholder="Login">
+        </mat-form-field>
+        <mat-form-field>
+          <input matInput formControlName="password" required type="password" placeholder="Password">
+        </mat-form-field>
+        <button type="submit" [disabled]="!loginForm.form.valid" mat-raised-button color="primary">Login</button>
+      </form>
+      <br>
+      <mat-spinner *ngIf="submitted" mode="indeterminate"></mat-spinner>
+      <br>
+    </mat-card-content>
+  </mat-card>
+</div>
